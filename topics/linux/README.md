@@ -2228,6 +2228,10 @@ $OLDPWD
 
 <details>
 <summary>How to count the number of lines in a file? What about words?</summary><br><b>
+* wc -l filename 
+* wc -w filename 
+* wc -lw filename  If you want to count both lines and words together
+
 </b></details>
 
 <details>
