@@ -135,6 +135,32 @@ To list all the files, one can run `ls -R /dir1`
 
 <details>
 <summary>Explain each field in the output of `ls -l` command</summary><br><b>
+  drwxr-xr-x  2  alice  staff   4096  Jun  7  12:34  my_directory
+  -rw-r--r--  1  alice  staff  12345  Jun  7  12:34  example.txt
+
+drwxr-xr-x 2 alice staff 4096 Jun 7 12:34 my_directory:
+
+d: Directory
+rwxr-xr-x: Owner (rwx), group (r-x), others (r-x)
+2: Two hard links (including . and ..)
+alice: Owned by user alice
+staff: Group staff
+4096: Size in bytes (typically 4096 bytes for directories)
+Jun 7 12:34: Last modified on June 7th at 12:34
+my_directory: Directory name
+
+
+-rw-r--r-- 1 alice staff 12345 Jun 7 12:34 example.txt:
+
+-: Regular file
+rw-r--r--: Owner (rw-), group (r--), others (r--)
+1: One hard link
+alice: Owned by user alice
+staff: Group staff
+12345: Size in bytes
+Jun 7 12:34: Last modified on June 7th at 12:34
+example.txt: File name
+
 It shows a detailed list of files in a long format. From the left:
 
 * file permissions, number of links, owner name, owner group, file size, timestamp of last modification and directory/file name
