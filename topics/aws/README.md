@@ -1715,9 +1715,13 @@ True. AWS responsible for making sure ELB is operational and takes care of lifec
 <summary>What's a "listener" in regards to ELB?</summary><br><b>
 </b></details>
 
+A listener in ELB is a process configured with a specific protocol and port that routes incoming client requests to backend targets based on predefined rules
+
 <details>
 <summary>What's a "target group" in regards to ELB?</summary><br><b>
 </b></details>
+
+A target group in ELB is a set of destinations (like EC2 instances, IP addresses, or Lambda functions) that an ELB routes traffic to based on defined rules and health checks.
 
 <details>
 <summary>Which load balancer would you use for services which use HTTP or HTTPS traffic?</summary><br><b>
