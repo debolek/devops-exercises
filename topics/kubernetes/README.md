@@ -3023,6 +3023,8 @@ TODO: add more monitoring solutions
 
 <details>
 <summary>What is Kustomize?</summary><br><b>
+ 
+Kustomize is a configuration management tool native to Kubernetes that allows you to customize Kubernetes YAML manifests without modifying the original files. It uses a concept of overlays to apply changes and lets you manage variations of Kubernetes resources for different environments (like development, staging, and production) in a clean and manageable way.
 </b></details>
 
 <details>
